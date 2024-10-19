@@ -60,7 +60,7 @@ kappa_range = [0.001, 3.0]
 
 # Defines the path to the folder that contains measurement data vectors + covariance matrices  
 folder_path = "/scratch/campb951/mcmc/data_files/"  
-# Defines the file extension
+# Defines the extension of the files in the folder path 
 file_pattern = "*.npy"
 # Creates a list of measurement files 
 file_list = glob(folder_path + file_pattern)
